@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'modern-normalize/modern-normalize.css';
 import App from './App';
 
 ReactDOM.render(
@@ -8,6 +9,10 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+
+
+
 
 // ReactDOM.render(template, document.getElementById("root"));
 // ReactDOM.render(<App />, document.getElementById("root"));

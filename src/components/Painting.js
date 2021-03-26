@@ -14,7 +14,7 @@ import PropTypes from 'prop-types';
 //     );
 // };
 
-const Painting2 = ({url, title, price}) => {
+const Painting = ({url, title, price}) => {
   return (
     <div>
       <img src={url} alt={title} width="160" />
