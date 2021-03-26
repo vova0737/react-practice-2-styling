@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +9,22 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// ReactDOM.render(template, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+// const painting = {
+//   id: "id-1",
+//     url: "https://bipbap.ru/wp-content/uploads/2017/04/blue-jelly-candy-thumb.jpg",
+//     title: "Feathers",
+//     price: 500,
+//     quantity: 10,
+// };
+
+// const template = (
+//     <div>
+//         <img src={painting.url} alt={painting.title} width="480" />
+//         <h2>{painting.title}</h2>
+//         <p>цена - {painting.price} grn</p>
+//         <button type="button"> Add to korzina </button>
+//     </div>
+// );

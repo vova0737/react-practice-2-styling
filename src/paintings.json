@@ -1,0 +1,16 @@
+[
+    {  
+          "id": "id-1",
+  "url": "https://bipbap.ru/wp-content/uploads/2017/04/blue-jelly-candy-thumb.jpg",
+  "title": "Feathers",
+  "price": 1000,
+  "quantity": 10
+},
+{
+    "id": "id-2",
+    "url": "https://bipbap.ru/wp-content/uploads/2017/04/blue-jelly-candy-thumb.jpg",
+    "title": "Feathers2",
+    "price": 2000,
+    "quantity": 20
+}
+]
