@@ -1,6 +1,7 @@
 import React from "react";
-import defaultImage from "./default.png";
+import defaultImage from './default.png';
 import PropTypes from 'prop-types';
+import './Painting.css';
 
 // const Painting = (props) => {
 //     // return <div>Компонент карточки картины </div>;
@@ -16,11 +17,11 @@ import PropTypes from 'prop-types';
 
 const Painting = ({url, title, price}) => {
   return (
-    <div>
+    <div className="Painting">
       <img src={url} alt={title} width="160" />
       <h2>{title}</h2>
-          <p>цена - {price} grn</p>
-          <p>Цена {price < 1500 ? 'низкая' : "вісокая" } </p>
+      <p>цена - {price} grn</p>
+      <p>Цена {price < 1500 ? 'низкая' : 'вісокая'} </p>
       <button type="button"> Add to korzina </button>
     </div>
   );

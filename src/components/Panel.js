@@ -1,16 +1,17 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import styles from './Panel.module.css'
 
-const styles = {
-  color: 'red',
-  width: '250px',
-  border: '2px solid',
-  borderColor: 'orange',
-  backgroundColor: '#5262',
-};
+// const styles = {
+//   color: 'red',
+//   width: '250px',
+//   border: '2px solid',
+//   borderColor: 'orange',
+//   backgroundColor: '#5262',
+// };
 
 const Panel = ({ title, children }) => (
-    <div style={styles}> 
+    <div className={styles.container}> 
         {title}
         {children}
 
@@ -34,4 +35,3 @@ Panel.propTypes = {
 // </div>;
 
 export default Panel;
-

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ColorPicker.css'
+import './ColorPicker.css';
 
 // const styles = {
 //     option: {

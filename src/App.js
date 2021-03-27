@@ -1,8 +1,10 @@
 import React from 'react';
-import Painting from "./components/Painting";
+import Painting from './components/Painting/Painting';
 import paintings from "./paintings.json";
 import Panel from "./components/Panel";
-import ColorPicker from './components/ColorPicker';
+
+import PaintingList from './components/PaintingList';
+import ColorPicker from './components/ColorPicker/ColorPicker';
 
 // const numbers = [1, 2, 3, 4];
 
@@ -10,7 +12,7 @@ const colorPickerOptions = [
   { label: 'red', color: '#f44336' },
   { label: 'green', color: '#4caf50' },
   { label: 'blue', color: '#2196f3' },
-  { label: 'red', color: '#607d8b' },
+  { label: 'yellow', color: '#607d8b' },
 ];
 
 const App = () => {
@@ -20,6 +22,14 @@ const App = () => {
       <Panel>
         <p>привет</p>
       </Panel>
+
+      <Panel> 
+        <PaintingList paintings={paintings}>
+
+        </PaintingList>
+      </Panel>
+
+
       <h1> Главн компонент-контейнер приложения</h1>
       <ul>
         {paintings.map((painting) => (
